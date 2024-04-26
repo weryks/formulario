@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fconceito.de%2Fdinheiro&psig=AOvVaw1XKNDF1fvdM-tAQESW_O2v&ust=1713732029577000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKCNmePS0YUDFQAAAAAdAAAAABAE">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+
+    <div class="form-container">
+        <form>
+            <h3>SIGN IN</h3>
+            <div class="input-container">
+                <input type="text" placeholder="Username">
+                <i data-feather="user"></i>
+            </div>
+            <div class="input-container">
+                <input type="Password" placeholder="Password">
+                <i data-feather="lock"></i>
+            </div>
+            <div class="options-container">
+                <div class="checkbox-container">
+                    <input type="checkbox" name="remenber" id="remenber">
+                    <label for="remember">Remember me</label>
+                </div><a href="google.com">Reset Password</a>
+            </div>
+            <input type="submit" value="Sign In">
+            <p>or Sign in with</p>
+            <div class="social-media-container">
+                <div class="icon-container">
+                    <i data-feather="facebook"></i>
+                </div>
+                <div class="icon-container">
+                    <i data-feather="mail"></i>
+                </div>
+                <div class="icon-container">
+                    <i data-feather="x"></i>
+                </div>
+            </div>
+            <hr>
+            <span>Do not have an account? <a href="google.com"> Sign up now</a></span>
+        </form>
+    </div>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+
+</html>
